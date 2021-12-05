@@ -1,0 +1,23 @@
+{
+  "name": "MyMedicalData",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "description": "Collect your medical information on the current webpage in entirety!",
+  "browser_action": {
+    "default_icon": "med_data_icon.png",
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+P"
+      }
+    }
+  },
+  "permissions": [ "activeTab", "storage", "unlimitedStorage", "downloads" ],
+  "icons": {
+    "16": "med_data_icon.png",
+    "48": "med_data_icon.png",
+    "128": "med_data_icon.png"
+  }
+}
