@@ -1,4 +1,4 @@
-Full Page Screen Capture
+My Medical Data - Full Page Screen Capture
 ========================
 
 A a Google Chrome extension that takes a screen capture of a full web page. 
